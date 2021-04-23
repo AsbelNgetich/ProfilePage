@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Patrick Hand", cursive;
+}
+
+/*.........Navigation Bar.....*/
+.navBar {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 180px;
+  padding-left: 180px;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navLeft h1 {
+  color: white;
+  margin: 0px;
+}
+
+.navLeft ul {
+  display: flex;
+  margin: 0px;
+}
+
+.navLeft ul li {
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.navLeft ul li a {
+  text-decoration: none;
+  color: azure;
+}
+
+.navRight {
+  background-color: rgb(67, 188, 224);
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-right: 40px;
+}
+.navLeft ul li a {
+  color: azure;
+}
+
+/*......... Main content......*/
+
+.mainContent {
+  margin-left: 180px;
+  margin-top: 25px;
+  width: 945px;
+  height: 1000px;
+
+  /**  border: 2px solid rgb(165, 160, 160); */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex start;
+}
+
+.bio {
+  width: 580px;
+
+  margin-right: 30px;
+
+  display: block;
+}
+
+/**..............Profile Content..........*/
+
+.profile {
+  height: 340px;
+  display: block;
+  border: 1px solid rgb(165, 160, 160);
+}
+
+.header {
+  height: 100px;
+  background-color: rgba(44, 156, 201, 0.699);
+  border: 1px solid rgb(165, 160, 160);
+}
+
+#profileImage {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(128, 128, 128, 0);
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.content {
+  margin-top: 70px;
+  margin-left: 25px;
+  /**font-family: "Original Surfer", cursive;**/
+}
+
+.editProfile img {
+  width: 20px;
+  height: 20px;
+  background-color: blueviolet;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.location h3 {
+  margin-left: 5px;
+}
+
+.location img {
+  height: 20px;
+  width: 20px;
+}
+
+.editProfile {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.editProfile a {
+  margin-left: 5px;
+}
+
+.content p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.education {
+  border: 2px solid rgb(165, 160, 160);
+
+  margin-top: 30px;
+}
+
+.education h3 {
+  border: 1px solid rgb(165, 160, 160);
+  color: white;
+  background-color: rgb(54, 48, 48);
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.education p {
+  padding-left: 20px;
+}
+
+/**...............Right side - Connections............**/
+.connections {
+  border: 1px solid rgb(165, 160, 160);
+  display: block;
+  width: 340px;
+  margin-right: 0;
+}
+
+.connectionRequest {
+  border: 1px solid rgb(165, 160, 160);
+  display: block;
+}
+
+#connectionsHeader {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(54, 48, 48);
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+#requestBtn {
+  width: 25px;
+  font-size: 100%;
+  color: black;
+
+  border-radius: 50%;
+
+  margin-right: 10px;
+}
+
+.myConnections {
+  border: 1px solid brgb(165, 160, 160);
+  display: block;
+}
+
+#connectionsBtn {
+  padding: 4px;
+  border-radius: 25px/12px;
+  margin-right: 10px;
+}
+
+.connectionName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.connectionName span {
+  margin-right: 15px;
+}
+
+#span2 {
+  margin-right: 18px;
+}
+
+.myConnections li {
+  padding-left: 10px;
+  list-style-type: none;
+
+  align-items: center;
+}
+
+#headShotImage {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+#checkMarkIcons {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.myConnections a {
+  padding-left: 10px;
+}
+
+.names {
+  margin-top: 10px;
+}
