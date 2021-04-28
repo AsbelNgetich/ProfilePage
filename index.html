@@ -36,7 +36,7 @@
                 </div>
                 <div class="content">
                     <img id="profileImage" src="images/profileIcon.png" alt="Profile Picture">
-                    <h1>Jane Doe</h1>
+                    <h1 id="profileName">Jane Doe</h1>
                     <div class="location">
                         <img src="images/locationIcon.png" alt="Location Icon">
                         <h3>Seattle</h3>
@@ -46,7 +46,7 @@
                     </p>
                     <div class="editProfile">
                         <img src="images/settingsIcon.jpeg" alt="Edit profile Icon">
-                        <a href="#">edit profile</a>
+                        <a href="#" onclick="changeName()">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -70,17 +70,17 @@
                     <button id="requestBtn">2</button>
                     <h3>Connection Requests</h3>
                 </div>                     
-                <div class="connectionName">
+                <div id="todd" class="connectionName">
                     <img id="headShotImage" src="images/profileIcon.png" alt="Todd E"> 
                     <span>Todd E</span> 
-                    <img id="checkMarkIcons" src="images/tick.png" alt="Tick">
-                    <img id="checkMarkIcons" src="images/cross.png" alt="Cross">
+                    <img class="checkMarkIcons" onclick="removeRequest('tick1')" id="tick1" src="images/tick.png" alt="Tick">
+                    <img class="checkMarkIcons" onClick="removeRequest('cross1')" id="cross1" src="images/cross.png" alt="Cross">
                 </div>
                 <div class="connectionName">
                     <img id="headShotImage" src="images/profileIcon.png" alt="Phil K"> 
                     <span id="span2"> Phil K </span>
-                    <img id="checkMarkIcons" src="images/tick.png" alt="Tick">
-                    <img id="checkMarkIcons" src="images/cross.png" alt="Cross">
+                    <img class="checkMarkIcons" onclick="removeRequest('tick2')" id="tick2" src="images/tick.png" alt="Tick">
+                    <img class="checkMarkIcons" onclick="removeRequest('cross2')" id="cross2" src="images/cross.png" alt="Cross">
                 </div>
 
 
@@ -103,6 +103,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
